@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Gallery</title>
+    <style>
+        /* Basic styling for the gallery */
+        .gallery {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(60, 39, 58);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .gallery-item .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+        .gallery-item .overlay-content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Artistic Berry</h1>
+
+    <div class="gallery">
+        <!-- Place your design images here -->
+        <div class="gallery-item">
+            <img src="C:\Users\Abrar\Desktop\ap\Q1.PNG" alt="Design 1">
+        
+
+            
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Qurrah</h3>
+                    <p>Description of Design 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\Abrar\Desktop\ap\IMG_6814.PNG" alt="Design 3">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Time Capsule </h3>
+                    <p>Description of Design 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\Abrar\Desktop\ap\IMG_6674.PNG" alt="Design 3">
+            
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Museum Ticket</h3>
+                    <p>Description of Design 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-item">
+                    <img src="C:\Users\Abrar\Desktop\ap\IMG_6815.PNG" alt="Design 3">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h3>Time Capsule </h3>
+                            <p>Description of Design 4</p>
+                        </div>
+                </div>
+                
+        
+            </div>
+        </div>
+        <!-- 222 Add more images as needed -->
+        <div class="gallery">
+            <!-- Place your design images here -->
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_5995.PNG" alt="Design 1">
+            
+    
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Art gallery</h3>
+                        <p>Description of Design 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_6673.PNG" alt="Design 3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Periwinkle </h3>
+                        <p>Description of Design 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_1818.PNG" alt="Design 3">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Lip gloss</h3>
+                        <p>Description of Design 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                        <img src="C:\Users\Abrar\Desktop\ap\IMG_6488 (1).PNG" alt="Design 3">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>personal logo </h3>
+                                <p>Description of Design 4</p>
+                            </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+        <!-- 333 Add more images as needed -->
+        <div class="gallery">
+            <!-- Place your design images here -->
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_4255.PNG" alt="Design 1">
+            
+    
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Wedding Invitation</h3>
+                        <p>Description of Design 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_5996.PNG" alt="Design 3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Berry </h3>
+                        <p>Description of Design 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_6030.PNG" alt="Design 3">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Art Heals</h3>
+                        <p>Description of Design 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                        <img src="C:\Users\Abrar\Desktop\ap\IMG_6042.PNG" alt="Design 3">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Wedding Invitation </h3>
+                                <p>Description of Design 4</p>
+                            </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+            <!-- 444 Add more images as needed -->
+        <div class="gallery">
+            <!-- Place your design images here -->
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_6823.PNG" alt="Design 1">
+            
+    
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Wedding invitation</h3>
+                        <p>Description of Design 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_4074.PNG" alt="Design 3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>qurrah's coupons </h3>
+                        <p>Description of Design 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\Q2.PNG" alt="Design 3">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>falling </h3>
+                        <p>Description of Design 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                        <img src="C:\Users\Abrar\Desktop\ap\1112.jpeg" alt="Design 3">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3> Periwinkle Lip gloss </h3>
+                                <p>Description of Design 4</p>
+                            </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+            <!-- 555 Add more images as needed -->
+        <div class="gallery">
+            <!-- Place your design images here -->
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_6824.PNG" alt="Design 1">
+            
+    
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Time Capsule</h3>
+                        <p>Description of Design 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_5999.PNG" alt="Design 3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Comming Soon </h3>
+                        <p>Description of Design 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="C:\Users\Abrar\Desktop\ap\IMG_6002.PNG" alt="Design 3">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Reality</h3>
+                        <p>Description of Design 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                        <img src="C:\Users\Abrar\Desktop\ap\IMG_1817.PNG" alt="Design 3">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3> Periwinkle Lip gloss </h3>
+                                <p>Description of Design 4</p>
+                            </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+    </div>
+</body>
+</html>
